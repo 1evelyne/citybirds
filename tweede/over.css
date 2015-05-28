@@ -1,0 +1,98 @@
+
+html{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.bovenbalk{
+    background-color: #000000;
+    width: 100%;
+}
+ 
+ nav ul{
+    margin-left: 20%;
+    padding-top: 0.6em;
+    height: 3em;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{ 
+    font-family: 'safregular';  
+    color: white;
+    font-size: 2.4em;
+    margin-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+}
+
+p{
+    font-size: 0.750em;
+    margin-top: 8%;
+    font-family: 'Tahoma';
+}
+
+.selected{
+    background-image: url(img/kleinebird.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:10%;
+    margin-left: -2%;
+}
+
+.selected:hover{
+    color: red;
+}
+
+.tekst{
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+}
+
+p{
+    font-family: 'Tahoma';
+    font-size: 2em;
+}
+
+.pbird{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+.weg2{
+    float: left;
+    width: 100%;
+    margin-top: -6%;
+}
+
+.links{
+    background-color: orange;
+    float: left;
+    width: 100%;
+}
+
+.fb{
+    width: 3%;
+    margin-left: 90%;
+}
+
+.tw{
+    width: 3.4%;   
+}
+
+@font-face{
+    font-family: 'safregular';
+    src: url('font/saf-webfont.eot');
+    src: url('font/saf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/saf-webfont.woff2') format('woff2'),
+         url('font/saf-webfont.woff') format('woff'),
+         url('font/saf-webfont.ttf') format('truetype'),
+         url('font/saf-webfont.svg#safregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
